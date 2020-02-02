@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "wedding-backend"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-181ob060q07k7"
+s3_prefix = "wedding-backend"
+region = "eu-west-1"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
